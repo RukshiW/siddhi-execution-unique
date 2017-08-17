@@ -1,24 +1,26 @@
 siddhi-execution-unique
 ======================================
 
-The **siddhi-execution-unique extension** is an extension to [Siddhi](https://wso2.github.io/siddhi) to process event streams based on unique events.
+The **siddhi-execution-unique extension** is an extension to [Siddhi](https://wso2.github.io/siddhi) that processes event streams based on unique events.
 Different types of unique windows are available to hold unique events based on the given unique key parameter.
 
-* Source code : [https://github.com/wso2-extensions/siddhi-execution-unique](https://github.com/wso2-extensions/siddhi-execution-unique)
-* Releases : [https://github.com/wso2-extensions/siddhi-execution-unique/releases](https://github.com/wso2-extensions/siddhi-execution-unique/releases)
-* Issue tracker :  [https://github.com/wso2-extensions/siddhi-execution-unique/issues](https://github.com/wso2-extensions/siddhi-execution-unique/issues)
+## Downloading the extension
+Click the following links and required to download the extension
+* [Source Code](https://github.com/wso2-extensions/siddhi-execution-unique)
+* [Releases](https://github.com/wso2-extensions/siddhi-execution-unique/releases)
+* [Issue Tracker](https://github.com/wso2-extensions/siddhi-execution-unique/issues)
 
 ## How to use 
 
 **Using extension in [WSO2 Stream Processor](https://github.com/wso2/product-sp/releases)**
 
-* You can use the extension with the latest [WSO2 Stream Processor](https://github.com/wso2/product-sp/releases) with editor, debugger and simulation support. 
+* You can use the extension with the latest [WSO2 Stream Processor](https://github.com/wso2/product-sp/releases), with editor, debugger and simulation support. 
 
-* Deployed to WSO2 Stream Processor by placing the component [jar](https://github.com/wso2-extensions/siddhi-execution-unique/releases) in STREAM_PROCESSOR_HOME/lib directory.
+* This extension is deployed to WSO2 Stream Processor by placing the component [jar](https://github.com/wso2-extensions/siddhi-execution-unique/releases) in the `<STREAM_PROCESSOR_HOME>/lib` directory.
 
 **Using extension as a [java library](https://wso2.github.io/siddhi/documentation/running-as-a-java-library/)**
 
-* Extension can be added as a maven dependency along with other Siddhi dependencies to your project.
+* This extension can be added as a maven dependency along with other Siddhi dependencies to your project.
 
 ```
      <depandancy>
@@ -57,11 +59,11 @@ Different types of unique windows are available to hold unique events based on t
 
 ## How to Contribute
  
-  * Please report issues at [Github Issue Tacker](https://github.com/wso2-extensions/siddhi-execution-unique/issues).
+  * Report issues at [Github Issue Tacker](https://github.com/wso2-extensions/siddhi-execution-unique/issues).
   * Send your bug fixes pull requests to [master branch](https://github.com/wso2-extensions/siddhi-execution-unique/tree/master). 
  
 ## Contact us 
- * Post your questions on http://stackoverflow.com/ tagging ["siddhi"](http://stackoverflow.com/search?q=siddhi)
+ * Post your questions to http://stackoverflow.com/ tagging ["siddhi"](http://stackoverflow.com/search?q=siddhi)
  
  * Siddhi developers can be contacted via the mailing lists:
  
